@@ -1,0 +1,32 @@
+
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+}
+#search_input{
+    margin-top: 15px;
+    width: 80%;
+    height: 35px;
+    font-size: medium;
+    padding: 10px auto;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+#navbar2{
+    display: flex;
+    gap:50px;
+}
+
+#results{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+}
+#image1{
+    height: 100px;
+    width: 200px;
+    /* border: 1px solid blue; */
+}
